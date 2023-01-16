@@ -1,0 +1,32 @@
+.bck-img{
+    background-image: url("/src/assets/bloomscape.png") ;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    margin-top:100px;
+    padding: 0;
+    z-index: 99;
+}
+.bck-img2{
+    background-image: url("/src/assets/bloomscapefooter.png");
+    height: 35vh;
+    width: 100vw;
+    position: relative;
+    margin-top: 250px;
+}
+.qoutes-text{
+    padding: 0;
+    margin: 0;
+}
+.qoutes-ctn{
+    padding:200px 0px 0px 50px;
+}
+.qoutes-blck{
+    padding: 0px;
+    margin: 0;
+    font-size: 40px;
+}
+.title-page{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

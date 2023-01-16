@@ -1,0 +1,18 @@
+.bannerctn{
+    display:flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 5vh;
+    justify-content: center;
+    background-color: rgba(3, 88, 3, 0.992);
+    text-underline-position: below;
+    color: whitesmoke;
+    gap: 5px;
+}
+
+.bannera{
+    display: flex;
+    margin-top: 15px ;
+    color: whitesmoke;
+    text-decoration: underline;
+}

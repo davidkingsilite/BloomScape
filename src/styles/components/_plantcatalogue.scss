@@ -1,0 +1,36 @@
+.btn-ctn{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 0 0 0 45px;
+}
+
+.btn-sh1{
+    display:block;
+    background: whitesmoke;
+    border: none;
+    color: green;
+    font-size: 15px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 3.2rem;
+    cursor: pointer;
+    width: 250px;
+    height: 55px;
+    padding:20px 0 0 30px;
+}
+
+.btn-sh2{
+    display:block;
+    background: rgba(217, 125, 125, 0.93);
+    border: none;
+    color: green;
+    font-size: 15px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 3.2rem;
+    cursor: pointer;
+    width: 200px;
+    height: 55px;
+    padding:20px 0 0 32px;
+}
