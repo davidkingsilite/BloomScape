@@ -1,20 +1,70 @@
 .bck-img {
   background-image: url("/src/assets/bloomscape.png");
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
   height: 100vh;
   width: 100%;
   background-size: cover;
-  position: absolute;
-  margin-top: 100px;
+  margin-top: 10px;
   padding: 0;
   z-index: 99;
 }
 
+@media (max-width: 850px) {
+  .bck-img {
+    height: 80vh;
+    padding: 0 50px;
+    background-position: top 30% right 40%;
+  }
+  .bck-img .qoutes-ctn {
+    justify-content: center;
+    align-items: center;
+    padding-top: 500px;
+  }
+}
+
+@media (max-width: 450px) {
+  .bck-img {
+    padding: 0 0 0 10px;
+  }
+  .bck-img .qoutes-ctn {
+    padding-top: 350px;
+    padding-left: 0px;
+  }
+  .bck-img .qoutes-ctn h1 {
+    font-size: 24px;
+  }
+  .bck-img .qoutes-ctn h4 {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 0 0 0 5px;
+    margin-right: 20px;
+  }
+}
+
 .bck-img2 {
   background-image: url("/src/assets/bloomscapefooter.png");
-  height: 35vh;
-  width: 100vw;
+  height: 42vh;
+  width: 100%;
+  margin-top: 1px;
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
-  margin-top: 250px;
+}
+
+@media (max-width: 850px) {
+  .bck-img2 {
+    margin: 0px;
+    padding: 0px;
+    height: 20vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .bck-img2 {
+    background-size: cover;
+    width: 100%;
+  }
 }
 
 .qoutes-text {
@@ -34,4 +84,140 @@
 
 .title-page {
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ban-ctn {
+  background-image: url("/src/assets/salesbanner1.png");
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  align-items: center;
+  justify-content: right;
+  padding-left: 500px;
+  padding-top: 150px;
+}
+
+@media (max-width: 850px) {
+  .ban-ctn {
+    background-position: 3% 70%;
+    justify-content: center;
+    padding-top: 450px;
+  }
+}
+
+@media (max-width: 450px) {
+  .ban-ctn {
+    background-size: cover;
+    padding-left: 0px;
+    padding-top: 0px;
+    background-position: top 10% left 90%;
+    height: 45vh;
+  }
+}
+
+.ban-ctn h4 {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+
+.ban-ctn span {
+  color: red;
+}
+
+.ban-ctn h2 {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+@media (max-width: 450px) {
+  .ban-ctn h2 {
+    font-size: 24px;
+    padding: 10px 20px;
+  }
+}
+
+.normal {
+  border-radius: 4px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  outline: none;
+  transition: 0.5s ease;
+}
+
+.normal:hover {
+  background-color: #088178;
+  color: #fff;
+}
+
+.banner3-ctn {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  justify-content: space-between;
+}
+
+@media (max-width: 450px) {
+  .banner3-ctn {
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+.banner3 {
+  background-image: url("/src/assets/salesbanner1.png");
+  background-size: cover;
+  width: 620px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  background-position: left;
+  align-items: center;
+  padding-left: 300px;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
+.banner3:hover button {
+  background-color: #812c08;
+  color: #fff;
+}
+
+@media (max-width: 850px) {
+  .banner3 {
+    background-size: cover;
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .banner3 {
+    background-size: cover;
+    width: 380px;
+    height: 60vh;
+    background-position: 5% 50%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-top: 150px;
+  }
+  .banner3 h4, .banner3 h2 {
+    color: #fff;
+  }
+  .banner3 span {
+    color: red;
+  }
 }

@@ -15,7 +15,6 @@ const PlantCatalogue = () => (
                 SHOP ALL PLANTS
                 </a>
             </div>
-
      
     </div>
 );

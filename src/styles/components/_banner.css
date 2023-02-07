@@ -10,6 +10,12 @@
   gap: 5px;
 }
 
+@media (max-width: 850px) {
+  .bannerctn {
+    width: 50vw;
+  }
+}
+
 .bannera {
   display: flex;
   margin-top: 15px;

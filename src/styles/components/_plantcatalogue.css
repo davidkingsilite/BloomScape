@@ -5,6 +5,12 @@
   padding: 0 0 0 45px;
 }
 
+@media (max-width: 450px) {
+  .btn-ctn {
+    padding-left: 5px;
+  }
+}
+
 .btn-sh1 {
   display: block;
   background: whitesmoke;
@@ -20,6 +26,13 @@
   padding: 20px 0 0 30px;
 }
 
+@media (max-width: 450px) {
+  .btn-sh1 {
+    width: 190px;
+    padding-top: 15px;
+  }
+}
+
 .btn-sh2 {
   display: block;
   background: rgba(217, 125, 125, 0.93);
@@ -33,4 +46,11 @@
   width: 200px;
   height: 55px;
   padding: 20px 0 0 32px;
+}
+
+@media (max-width: 450px) {
+  .btn-sh2 {
+    width: 140px;
+    padding-top: 15px;
+  }
 }

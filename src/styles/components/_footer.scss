@@ -1,0 +1,38 @@
+.foot-ctn{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:30px;
+    padding: 0 10px;
+    @media (max-width: 450px) {
+        margin: 18px 20px;
+    }
+    
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.col a{
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 0 10px 0;
+    color: #222;
+}
+.logo1{
+    height: 9.9vh;
+}
+.logo2{
+    height: 10vh;
+}
+
+.foot-ctn h4{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.foot-ctn p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
